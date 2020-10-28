@@ -1,0 +1,11 @@
+pandas 
+matplotlib 
+requests 
+lxml 
+cssselect 
+beautifulsoup4 
+toolz 
+sklearn 
+statsmodels 
+seaborn
+nltk

@@ -1,0 +1,28 @@
+@font-face { font-family: "Panton-Regular"; src: url("https://www.codecentric.de/wp-content/themes/codecentric/fonts/hinted-Panton-Regular.woff2"); }
+@font-face { font-family: "Panton-Bold"; src: url("https://www.codecentric.de/wp-content/themes/codecentric/fonts/hinted-Panton-Bold.woff2"); }
+@font-face { font-family: 'Inconsolata'; src: url(https://fonts.gstatic.com/s/inconsolata/v20/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp4U8WRP2kXWdycuJDETf.woff) format('woff'); }
+
+div.jp-MainAreaWidget h1, div.jp-MainAreaWidget h2, div.jp-MainAreaWidget div {
+    font-family: "Panton-Regular"; 
+}
+div.jp-MainAreaWidget div.jp-CodeCell div.jp-InputArea-editor div, 
+div.jp-MainAreaWidget div.jp-CodeCell div.jp-OutputArea-output div {
+    font-family: "Inconsolata";
+}
+div.jp-Notebook div.jp-CodeCell:first-child {
+    display: none;
+}
+
+aside.notes { 
+    border: 2pt solid Teal; padding: 1ex;
+}
+
+.hint { color:transparent; text-shadow: 0 0 10px #000; }
+.hint:hover {color: #000; text-shadow: 0 0 0 #000; }
+
+div.jp-MainAreaWidget .jp-Notebook {
+    border-left: 10px solid #007891;
+    background-image: url("cc-logo-square.png");
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}

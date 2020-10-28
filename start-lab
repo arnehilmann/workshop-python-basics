@@ -1,0 +1,7 @@
+#!/bin/sh
+
+VERSION=0.1
+IMAGE=arne/jupyter-workshop:$VERSION
+
+docker rm -f jupyterlab || :
+docker run -it -v $PWD:/nbs -p 8888:8888 --name jupyterlab --hostname jupyterlab $IMAGE
