@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NewsML>
+   <Catalog href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_17.xml"/>
+   <NewsEnvelope>
+     <DateAndTime>2020-10-21T21:42:31+0200</DateAndTime>
+   </NewsEnvelope>
+   <NewsItem>
+     <Identification>
+       <NewsIdentifier>
+         <ProviderId>foobarschau</ProviderId>
+         <NewsItemId>4171</NewsItemId>
+       </NewsIdentifier>
+     </Identification>
+     <NewsManagement>
+       <NewsItemType FormalName="News"/>
+       <FirstCreated>2020-10-21T20:00:00+0200</FirstCreated>
+       <ThisRevisionCreated>2020-10-21T20:01:00+0200</ThisRevisionCreated>
+       <Status FormalName="Published"/>
+       <StatusWillChange>
+         <FutureStatus FormalName="Canceled"/>
+         <DateAndTime>2020-11-18T00:00:00+0100</DateAndTime>
+       </StatusWillChange>
+     </NewsManagement>
+     <NewsLines>
+       <CopyrightLine><![CDATA[foobarschau GmbH]]></CopyrightLine>
+       <ByLine><![CDATA[Max Mustermann]]></ByLine>
+       <HeadLine><![CDATA[Trump und das FBI - Mi. 28.10. - ARD: 22.50 Uhr: 40 Jahre auf dem Kieker der Sicherheitsbehörde]]></HeadLine>
+       <SlugLine><![CDATA[Trump und das FBI - Mi. 28.10. - ARD: 22.50 Uhr]]></SlugLine>
+     </NewsLines>
+     <NewsComponent Duid="20204601">
+       <Role FormalName="Main"/>
+       <ContentItem>
+         <MediaType FormalName="ComplexData"/>
+         <MimeType FormalName="text.vnd.IPTC.NITF"/>
+         <DataContent>
+           <nitf>
+             <body>
+             </body>
+           </nitf>
+         </DataContent>
+       </ContentItem>
+     </NewsComponent>
+   </NewsItem>
+</NewsML>
+ 
